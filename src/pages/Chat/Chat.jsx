@@ -8,7 +8,7 @@ const Chat = () => {
   return (
     <div className='chat'>
         <div className="chat-container">
-          {/* <LeftSidebar/> */}
+          <LeftSidebar/>
           {/* <ChatBox/> */}
           {/* <RightSidebar/> */}
         </div>
