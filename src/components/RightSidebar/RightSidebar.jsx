@@ -3,7 +3,7 @@ import './RightSidebar.css'
 
 const RightSidebar = () => {
   return (
-    <div>RightSidebar</div>
+    <div></div>
   )
 }
 
