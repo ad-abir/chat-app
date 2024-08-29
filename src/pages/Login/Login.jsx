@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Login.css'
 import assets from '../../assets/assets'
-import { signup } from '../../config/firebase'
+import { signup, login } from '../../config/firebase'
 
 const Login = () => {
 
@@ -14,6 +14,9 @@ const Login = () => {
     event.preventDefault();
     if(currState === "Sign Up"){
       signup(username, email, password);
+    }
+    else {
+      login(email, password);
     }
   }
 
